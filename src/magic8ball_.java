@@ -56,7 +56,7 @@ import java.util.Scanner;
             masterKey = keyboard.nextByte();
         System.out.println("Now ask away all of your questions...");
             question1 = keyboard.nextLine();
-            if (masterKey < 10) {
+            if (0 > masterKey && masterKey < 10) {
                 System.out.println("If you dare");
             }
             else if (masterKey <= 20) {
@@ -77,7 +77,7 @@ import java.util.Scanner;
             if (masterKey < 10) {
                 System.out.println(possibly);
             } else if (masterKey >= 20) {
-                System.out.println(yes);
+                System.out.println(mostLikely);
             } else {
                 System.out.println(maybe);
             }
