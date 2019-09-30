@@ -58,28 +58,128 @@ import java.util.Scanner;
             question1 = keyboard.nextLine();
             if (masterKey < 10) {
                 System.out.println("If you dare");
-            } else if (masterKey < 20) {
+            }
+            else if (masterKey <= 20) {
                 System.out.println("If you dare");
-            } else {
+            }
+            else {
                 System.out.println("If you dare");
             }
             question2 = keyboard.nextLine();
-            if (masterKey < 10) {
+            if (masterKey <= 10) {
                 System.out.println(maybe);
-            } else if (masterKey < 20) {
+            } else if (masterKey > 20) {
                 System.out.println(no);
             } else {
                 System.out.println(yes);
             }
             question3 = keyboard.nextLine();
             if (masterKey < 10) {
+                System.out.println(possibly);
+            } else if (masterKey >= 20) {
+                System.out.println(yes);
+            } else {
+                System.out.println(maybe);
+            }
+            question4 = keyboard.nextLine();
+            if (masterKey <= 10) {
+                System.out.println(perhaps);
+            } else if (masterKey < 20) {
+                System.out.println(maybeNot);
+            } else {
+                System.out.println(notLikely);
+            }
+            question5 = keyboard.nextLine();
+            if (masterKey <= 10) {
+                System.out.println(never);
+            } else if (masterKey < 20) {
+                System.out.println(keepDreaming);
+            } else {
+                System.out.println(yes);
+            }
+            question6 = keyboard.nextLine();
+            if (masterKey <= 10) {
+                System.out.println(maybe);
+            } else if (masterKey <= 20) {
+                System.out.println(no);
+            } else {
+                System.out.println(perhaps);
+            }
+            question7 = keyboard.nextLine();
+            if (masterKey <= 10) {
+                System.out.println(never);
+            } else if (masterKey < 20) {
+                System.out.println(no);
+            } else {
+                System.out.println(possibly);
+            }
+            question8 = keyboard.nextLine();
+            if (masterKey < 10) {
+                System.out.println(yes);
+            } else if (masterKey <= 20) {
+                System.out.println(maybe);
+            } else {
+                System.out.println(no);
+            }
+            question9 = keyboard.nextLine();
+            if (masterKey <= 10) {
+                System.out.println(maybeNot);
+            } else if (masterKey < 20) {
+                System.out.println(perhaps);
+            } else {
+                System.out.println(yes);
+            }
+            question10 = keyboard.nextLine();
+            if (masterKey < 10) {
+                System.out.println(no);
+            } else if (masterKey <= 20) {
+                System.out.println(yes);
+            } else {
+                System.out.println(never);
+            }
+            question11 = keyboard.nextLine();
+            if (masterKey <= 10) {
+                System.out.println(maybe);
+            } else if (masterKey < 20) {
+                System.out.println(no);
+            } else {
+                System.out.println(notLikely);
+            }
+            question12 = keyboard.nextLine();
+            if (masterKey < 10) {
+                System.out.println(possibly);
+            } else if (masterKey <= 20) {
+                System.out.println(maybeNot);
+            } else {
+                System.out.println(keepDreaming);
+            }
+            question13 = keyboard.nextLine();
+            if (masterKey <= 10) {
                 System.out.println(maybe);
             } else if (masterKey < 20) {
                 System.out.println(no);
             } else {
                 System.out.println(yes);
-                
+            }
+            question14 = keyboard.nextLine();
+            if (masterKey < 10) {
+                System.out.println(perhaps);
+            } else if (masterKey <= 20) {
+                System.out.println(mostLikely);
+            } else {
+                System.out.println(maybeNot);
+            }
+            question15 = keyboard.nextLine();
+            if (masterKey <= 10) {
+                System.out.println(maybe);
+            } else if (masterKey < 20) {
+                System.out.println(no);
+            } else {
+                System.out.println(yes);
+            }
 
-        System.out.println("Thank you for playing!");
+
+            System.out.println("Thank you for playing!");
+
     }
 }
